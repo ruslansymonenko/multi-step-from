@@ -192,6 +192,15 @@ body{
   border-radius: 50%;
   background-color: var(--main-green);
   cursor: pointer;
+  transition: ease .2s;
+}
+
+.app-header__stage--active {
+  background-color: var(--main-red);
+}
+
+.app-header__stage:hover{
+
 }
 
 .app-header__progress{
